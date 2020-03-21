@@ -14,7 +14,7 @@ cmake -DCMAKE_PREFIX_PATH="/home/username/libtorch" ..
 make -j4
 ./CrnnDeploy ../src/crnn_model.pt ../src/keys.txt ../src/test.jpg
 ```
-Tips: `vim CMakeLists.txt`, modify the libtoch path for your lib path.
+Tips: modify the libtoch path for your lib path.
 
 ## Next Working
 - Model compression.
